@@ -1,2 +1,2 @@
 # SumanVitae
-Code for my vitae
+latex Code for my Vitae.
