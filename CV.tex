@@ -1,0 +1,149 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Suman Shekhar} % Your name
+\address{Kankarbagh \\ Patna, Bihar 800020} % Your address
+% \address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(766)~$\cdot$~725~$\cdot$~1869 \\ sumanshekhar170219@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Technology (Indian School of Mines) Dhanbad} \hfill {\em May 2022} \\ 
+BTech in Mechanical Engineering \\
+Member of High Performance Computing Lab \\
+Lead Member of Mechismu Racing \\
+Overall GPA: 6.9/10
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experience}
+
+\begin{rSubsection}{Melbourne University}{May 2021 - Present}{Summer Internship}{Melbourne, Australia}
+\item Investigating the role of double-diffusion in the formation of Antarctic offshore polynya.
+\item Developed a python script for Analysis of Argo float data which contain float hydro-graphic observations from Maud rise from 2011-2018. 
+\item Plots with potential temperature, salinity, Buoyancy frequency were plotted for better visualization of Mixed layer depths and convection period.
+\item Large Eddy Simulation Modelling of open ocean convection with the initial condition extracted from Argo float data and Heat flux boundary conditions that were obtained by mooring data. The aim is to reproduce the event investigating the role of double-diffusion in the event. 
+\end{rSubsection}
+%------------------------------------------------
+\begin{rSubsection}{Melbourne University}{November 2020 - February 2021}{Winter Internship}{Melbourne, Australia}
+\item Modelling Open ocean convection using open source solver Oceananigans.
+\item Performed Grid analysis to find optimized grid for the simulation. 
+\item Developed Large Eddy Simulation Julia script that uses GPU for computation and analysed the Mixed Layer Depth results with serial code. 
+\item Developed Python script that uses lazy computation using Dask(parallel computing package) to compute simulation data contained in NetCDF file.
+ 
+\end{rSubsection}
+%------------------------------------------------
+
+\begin{rSubsection}{Universiti Tecknologi Petronas}{December 2009 - October 2010}{Research Internship}{Malasiya}
+\item Performed Species transport and chemical reaction simulation of in a combustion chamber using ANSYS software. 
+\item Developed a Python and MATLAB script which solves conservation equations describing convection, diffusion, diffusion and reaction sources for each component species in the fuel chamber.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{National University of Singapore}{May 2020 - June 2020}{Research Internship}{Singapore}
+\item Learnt about Direct Numerical Simulation and FORTRAN programming language.
+\item Conducted a Numerical study on Stookian flow. 
+\end{rSubsection}
+ %---------------------------------------------------
+\begin{rSubsection}{University of Nicosia}{April 2020 - May 2020}{Research Internship}{Nicosia, Cyprus}
+\item Developed a python script to simulate a virus transmission in population with varying wind speed and humidity condition.  
+\item Learnt Data analysis and performed Exploratory data analysis on covid-19 data obtained from John Hopkins University. 
+\item Analysed SIR virus transmission model. And pointed out that those model must incorporate fluid dynamics parameter that can govern virus transmission. Came up with humidity and wind speed to incorporate as a beta parameter in SIR model.  
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Teaching Experience}
+\begin{rSubsection}{Computational Fluid Dynamics}{fall 2021}{Department of Chemical Engineering, Indian Institute of Technology (ISM) Dhanbad}
+\item Introduced the concept of Global Spectral Analysis and introduced commercial software such as ANSYS, Converge CFD.
+\end{rSubsection}
+
+\begin{rSubsection}{Aerodynamics}{spring 2020}{Mechismu Racing Workshop, Indian Institute of Technology (ISM) Dhanbad}
+\item Workshop slides can be accessed here.
+\end{rSubsection}
+\end{rSection}
+%--------------------------------------------------------------------------------
+
+\begin{rSection}{LAB EXPERIRNCE}
+
+\begin{rSubsection}{Aero-Acoustic Lab}{February 2019 - August 2019}{Department of Mechanical Engineering, Indian Institute of Technology (ISM) Dhanbad}
+\item Tests of leading edge serration on an Aerofoil, noise reduction capabilities/reverberation room sound-absorption coefficients, sound transmission loss.
+\end{rSubsection}
+
+\begin{rSubsection}{High Performance Computing Lab}{May 2021 - present}{Department of Mechanical Engineering, Indian Institute of Technology (ISM) Dhanbad}
+\item Development of High Accuracy Algorithm for scientific computing.
+\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{CONFERENCE PRESENTATIONS}
+\begin{rSubsection}{OceanHackWeek}{3 August 2021 - 6 August 2021}{}
+Denisse Fierro Arcos, Shikha Singh, \underline{Suman Shekhar}(August 2021).Project Presentation in OceanHackWeek organised by \underline{University of Washington}  on CMIP6 workflows, turning big climate projection data into useful inputs for modelling and analysis.
+\end{rSection}
+\end{rSubsection}
+
+\begin{rSection}{OTHER EXPERIENCES}
+\begin{rSubsection}{Young Earth System Scientists community}{August 2021 - Present}{}
+\item Collaborating with researcher from three different continents on an Earth science project using Machine learning and will continue throughout the academic year. 
+\end{rSubsection}
+\begin{rSubsection}{Mechismu Racing(FSAE Team)}{February 2019 - Present}{Mechismu Racing, Indian Institute of Technology (ISM) Dhanbad}
+\item Lead Aerodynamics expert of the team. Applied Fluid dynamics and software skills in analysing the design and optimization of the aerodynamics shape and Participated in Virtual Formula Bharat in 2021.  
+\end{rSubsection}
+\begin{rSubsection}{Kartavya NGO}{December 2018 - May 2019}{Kartavya, Indian Institute of Technology (ISM) Dhanbad}
+\item Tutoring mathematics to unprivileged children for free of cost. 
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Fortran, C++, Julia, matlab, Python, CUDA, MPI, git \\
+Packages \& APIs & Xarray, Dask, Pandas, Xgcm, Numpy, Metpy \\
+Softwares & ANSYS, Converge CFD, Solidworks, StarCCM \\
+Documentation Preparation Systems &  LaTeX (document classes: article, beamer; packages: tikz)\\
+Open Source Tools & Oceananigans, CMIP6 pangeo preprocessing\\
+Scientific Computing skills & Global Spectral Analysis, Fourier Analysis, FEA, FDM\\
+modeling skills & Large Eddy Simulations, DNS, RANS
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
